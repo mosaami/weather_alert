@@ -261,7 +261,7 @@ app.post("/sendEmail", function (req, res) {
         pass: "ilrqkumtuvokdhba",
       },
     });
-    global otp = Math.floor(1000 + Math.random() * 9000);
+    otp = Math.floor(1000 + Math.random() * 9000);
 
     let mailOptions = {
       from: '"Nishi Suratia" <nishisuratia9102@gmail.com>', // sender address
